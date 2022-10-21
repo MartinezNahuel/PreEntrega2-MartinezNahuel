@@ -24,9 +24,10 @@ header .navbar .container{
 }
 
 h2 .logo{ 
-    color: #2667FF;
+    color: #3d3d3d;
+    font-size: 1.2rem;
+    transition: 1s;
 }
-
 
 .nav-link{
     color: black;
@@ -34,6 +35,7 @@ h2 .logo{
 
 .nav-link:hover{
 color: rgba(0, 0, 0, 0.307);
+transform: scale(1.1);
 }
 
 .link{
@@ -45,3 +47,33 @@ color: rgba(0, 0, 0, 0.307);
     color: #3B28CC;
 }
 
+/* --- PORTADA---- */
+
+.titulo{
+    font-size: 1rem;
+    color: #3B28CC;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.contimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.texto_portada{
+    color: #3B28CC;
+    text-align: center;
+}
+
+
+/* titulo para resolucion 1200 */
+@media (min-width:1200px){
+    .titulo{
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+}
