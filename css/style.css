@@ -90,11 +90,9 @@ transform: scale(1.1);
     color: #3d3d3d;
 }
 
-.contfot{
+.footer{
     background-color: #abc4ff;
-    width: 100%;
-    margin-bottom: 3px;
-    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
 }
-
-
