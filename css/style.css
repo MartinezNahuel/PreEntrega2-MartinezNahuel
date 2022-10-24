@@ -127,4 +127,30 @@ color: rgba(0, 0, 0, 0.307);
     }
 }
 
+/* ------PAGE NOSOTROS---- */
 
+.container h2{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 10px;
+    color: #3B28CC;
+    font-weight: bold;
+}
+
+.txtnos{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.tmp{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0a043b;
+}
+
+.mapa{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+}
