@@ -14,50 +14,51 @@ ul {
 
 /* ----Header--- */
 
-header .navbar .container{ 
+header .navbar .container {
     background-color: #abc4ff;
 }
 
-.img_logo{
+.img_logo {
     height: 25px;
     margin: 10px;
 }
 
-h2 .logo{ 
+h2 .logo {
     color: #3d3d3d;
     font-size: 1.2rem;
     transition: 1s;
 }
 
-.nav-link{
+.nav-link {
     color: black;
 }
 
-.nav-link:hover{
-color: rgba(0, 0, 0, 0.307);
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.307);
 }
 
-.link{
+.link {
     color: #2667FF;
 }
 
-.link:hover{
+.link:hover {
     color: #3B28CC;
 }
 
 /* ----visualizacion 1200px navbar---- */
-@media(min-width:1200px){
-    .nav-link:hover{
+@media(min-width:1200px) {
+    .nav-link:hover {
         transform: scale(1.2);
     }
-    .link:hover{
+
+    .link:hover {
         transform: scale(1.2);
     }
 }
 
 /* --- PORTADA---- */
 
-.titulo{
+.titulo {
     font-size: 1rem;
     color: #3B28CC;
     margin-top: 20px;
@@ -72,15 +73,15 @@ color: rgba(0, 0, 0, 0.307);
     margin-top: 20px;
 }
 
-.texto_portada{
+.texto_portada {
     color: #3d3d3d;
     text-align: center;
 }
 
 
 /* titulo para resolucion 1200 */
-@media (min-width:1200px){
-    .titulo{
+@media (min-width:1200px) {
+    .titulo {
         font-size: 1.5rem;
         font-weight: normal;
     }
@@ -88,7 +89,7 @@ color: rgba(0, 0, 0, 0.307);
 
 /* ----FOOTER--- */
 
-.footer{
+.footer {
     background-color: #abc4ff;
     display: flex;
     justify-content: center;
@@ -96,11 +97,11 @@ color: rgba(0, 0, 0, 0.307);
     align-items: center;
 }
 
-.imgf{
+.imgf {
     width: 20px;
 }
 
-.footer__etiqueta{
+.footer__etiqueta {
     font-size: 0.8rem;
     padding: 4px;
     color: #3B28CC;
@@ -109,47 +110,50 @@ color: rgba(0, 0, 0, 0.307);
 
 /* -----VISUALIZACION FOOTER 1200PX----- */
 
-@media(min-width:1200px){
-    .footer{
+@media(min-width:1200px) {
+    .footer {
         justify-content: space-around;
         height: 40px;
     }
-    .imgf{
+
+    .imgf {
         width: 30px;
     }
-    .footer__etiqueta{
+
+    .footer__etiqueta {
         font-size: 1rem;
         font-weight: normal;
         color: #0a043b;
     }
-    .footer__etiqueta :hover{
+
+    .footer__etiqueta :hover {
         transform: scale(1.2);
     }
 }
 
 /* ------PAGE NOSOTROS---- */
 
-.container h2{
-    font-size: 1.1rem;
+.container h2 {
+    font-size: 1.4rem;
     text-align: center;
     margin-top: 10px;
     color: #3B28CC;
     font-weight: bold;
 }
 
-.txtnos{
+.txtnos {
     font-size: 1rem;
     margin-top: 10px;
 }
 
-.tmp{
+.tmp {
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
     color: #0a043b;
 }
 
-.mapa{
+.mapa {
     width: 250px;
     height: 250px;
     padding: 15px;
@@ -157,34 +161,35 @@ color: rgba(0, 0, 0, 0.307);
 
 /* ---visualizacion 1200px para page nosotros--- */
 
-@media(min-width:1200px){
-    .imgnos{
+@media(min-width:1200px) {
+    .imgnos {
         border-radius: 70px;
         padding: 20px;
     }
 
-    .tmp{
+    .tmp {
         font-size: 1.2rem;
         color: #3B28CC;
     }
 
-    .tmp:hover{
+    .tmp:hover {
         transform: scale(1.1);
     }
 
-    .mapa{
+    .mapa {
         width: 500px;
         height: 500px;
     }
 }
 
 /* ----PAGE ADOPTAR----- */
-.tituload{
+.tituload {
     font-size: 1.2rem;
     color: #3B28CC;
     font-weight: bold;
 }
-.contarj{
+
+.contarj {
     background-color: #3B28CC;
     color: #abc4ff;
     padding: 10px;
@@ -199,35 +204,42 @@ color: rgba(0, 0, 0, 0.307);
 
 /* ---visualizacion 1200px page adoptar--- */
 
-@media(min-width:1200px){
-    .tituload{
+@media(min-width:1200px) {
+    .tituload {
         font-size: 1.5rem;
     }
 
-    .contarj{
+    .contarj {
         background-color: #abc4ff;
         color: #3B28CC;
         border: ridge;
     }
-    .contarjeta{
+
+    .contarjeta {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .adoptar__imagen{
+
+    .adoptar__imagen {
         border-radius: 100px;
+        width: 300px;
+        margin: 0 auto;
+        display: block;
     }
-    .adoptar__imagen:hover{
+
+    .adoptar__imagen:hover {
         transform: scale(1.1);
         border-radius: 30px;
     }
-    .adoptar__nombre{
+
+    .adoptar__nombre {
         color: black;
         font-weight: bold;
         font-size: 1.2rem;
         margin-bottom: 20px;
     }
 
-    .adoptar__boton{
+    .adoptar__boton {
         color: black;
         font-weight: bold;
         width: 100px;
@@ -236,7 +248,7 @@ color: rgba(0, 0, 0, 0.307);
         border-radius: 10px;
     }
 
-    .adoptar__boton:hover{
+    .adoptar__boton:hover {
         transform: scale(1.2);
     }
 
@@ -244,28 +256,30 @@ color: rgba(0, 0, 0, 0.307);
 
 /* -----Page Donar---- */
 
-.imgdon{
+.imgdon {
     border-radius: 20px;
     width: 300px;
 }
 
-.txtdon{
+.txtdon {
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.titdon{
+.titdon {
     text-align: center;
 }
 
-@media(min-width:1200px){
-    
-    .contdon{
+@media(min-width:1200px) {
+
+    .contdon {
         align-content: center;
         justify-content: center;
     }
-    
-    .imgdon{
+
+    .imgdon {
         width: 700px;
     }
+
+
 }
