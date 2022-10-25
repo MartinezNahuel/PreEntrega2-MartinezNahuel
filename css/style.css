@@ -154,3 +154,26 @@ color: rgba(0, 0, 0, 0.307);
     height: 250px;
     padding: 15px;
 }
+
+/* ---visualizacion 1200px para page nosotros--- */
+
+@media(min-width:1200px){
+    .imgnos{
+        border-radius: 70px;
+        padding: 20px;
+    }
+
+    .tmp{
+        font-size: 1.2rem;
+        color: #3B28CC;
+    }
+
+    .tmp:hover{
+        transform: scale(1.1);
+    }
+
+    .mapa{
+        width: 500px;
+        height: 500px;
+    }
+}
