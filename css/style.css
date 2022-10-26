@@ -95,6 +95,7 @@ h2 .logo {
     justify-content: center;
     height: 50px;
     align-items: center;
+    margin-top: 10px;
 }
 
 .imgf {
@@ -138,7 +139,7 @@ h2 .logo {
     text-align: center;
     margin-top: 10px;
     color: #3B28CC;
-    font-weight: bold;
+
 }
 
 .txtnos {
@@ -186,11 +187,11 @@ h2 .logo {
 .tituload {
     font-size: 1.2rem;
     color: #3B28CC;
-    font-weight: bold;
+
 }
 
 .contarj {
-    background-color: #3B28CC;
+    background-color: #2667FF;
     color: #abc4ff;
     padding: 10px;
     border: solid;
@@ -211,7 +212,7 @@ h2 .logo {
 
     .contarj {
         background-color: #abc4ff;
-        color: #3B28CC;
+        color: #2667FF;
         border: ridge;
     }
 
@@ -281,5 +282,6 @@ h2 .logo {
         width: 700px;
     }
 
-
 }
+
+/* ----PAGE CONTACTO---- */
