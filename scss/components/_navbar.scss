@@ -6,3 +6,11 @@ header .navbar .container {
     height: 25px;
     margin: 10px;
 }
+
+h2 .logo {
+    color: $color-letra;
+    font-size: 1.2rem;
+    transition: 1s;
+    font-family:"lora";
+}
+
