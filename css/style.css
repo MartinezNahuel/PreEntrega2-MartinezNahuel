@@ -32,4 +32,98 @@ h2 .logo {
   font-family: "lora";
 }
 
+.nav-link {
+  color: black;
+  font-family: "lora";
+}
+
+.nav-link:hover {
+  color: rgba(0, 0, 0, 0.307);
+}
+
+.link {
+  color: #2667FF;
+  font-family: "lora";
+}
+
+.link:hover {
+  color: #3B28CC;
+}
+
+/* ----visualizacion 1200px navbar---- */
+@media (min-width: 1200px) {
+  .nav-link:hover {
+    transform: scale(1.2);
+  }
+  .link:hover {
+    transform: scale(1.2);
+  }
+}
+.footer {
+  background-color: #abc4ff;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.imgf {
+  width: 20px;
+}
+
+.footer__etiqueta {
+  font-size: 0.8rem;
+  padding: 6px;
+  color: #3B28CC;
+}
+
+/* -----VISUALIZACION FOOTER 1200PX----- */
+@media (min-width: 1200px) {
+  .footer {
+    justify-content: space-around;
+    height: 40px;
+  }
+  .imgf {
+    width: 30px;
+  }
+  .footer__etiqueta {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #0a043b;
+  }
+  .footer__etiqueta :hover {
+    transform: scale(1.2);
+  }
+}
+.titulo {
+  font-size: 1rem;
+  color: #3d3d3d;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "lora";
+}
+
+.contimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.texto_portada {
+  color: #3d3d3d;
+  text-align: center;
+  font-family: "lora";
+}
+
+/* titulo para resolucion 1200 */
+@media (min-width: 1200px) {
+  .titulo {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #3d3d3d;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

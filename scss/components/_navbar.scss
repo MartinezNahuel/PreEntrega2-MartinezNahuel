@@ -13,4 +13,33 @@ h2 .logo {
     transition: 1s;
     font-family:"lora";
 }
+.nav-link {
+    color: black;
+    font-family: "lora";
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.307);
+}
+
+.link {
+    color: #2667FF;
+    font-family: "lora";
+}
+
+.link:hover {
+    color: #3B28CC;
+}
+
+/* ----visualizacion 1200px navbar---- */
+@media(min-width:1200px) {
+    .nav-link:hover {
+        transform: scale(1.2);
+    }
+
+    .link:hover {
+        transform: scale(1.2);
+    }
+}
+
 

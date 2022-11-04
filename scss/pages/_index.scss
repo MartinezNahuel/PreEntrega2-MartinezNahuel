@@ -1,0 +1,31 @@
+.titulo {
+    font-size: 1rem;
+    color: $color-letra;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "lora";
+}
+
+
+.contimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.texto_portada {
+    color: $color-letra;
+    text-align: center;
+    font-family: "lora";
+}
+
+
+/* titulo para resolucion 1200 */
+@media (min-width:1200px) {
+    .titulo {
+        font-size: 1.5rem;
+        font-weight: normal;
+        color: $color-letra;
+    }
+}
