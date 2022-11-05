@@ -166,7 +166,6 @@ h2 .logo {
   padding: 15px;
 }
 
-/* ---visualizacion 1200px para page nosotros--- */
 @media (min-width: 1200px) {
   .imgnos {
     border-radius: 70px;
@@ -182,6 +181,70 @@ h2 .logo {
   .mapa {
     width: 500px;
     height: 500px;
+  }
+}
+.tituload {
+  font-size: 1.2rem;
+  color: #3d3d3d;
+  font-family: "lora";
+}
+
+.contarj {
+  background: repeating-linear-gradient(80deg, #2667FF, #abc4ff);
+  padding: 10px;
+  border: solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-family: "lora";
+}
+
+@media (min-width: 1200px) {
+  .tituload {
+    font-size: 1.5rem;
+  }
+  .contarj {
+    background-color: #abc4ff;
+    color: #3d3d3d;
+    border: solid;
+    box-shadow: 10px 6px 5px -2px rgba(10, 10, 10, 0.72);
+    -webkit-box-shadow: 10px 6px 5px -2px rgba(10, 10, 10, 0.72);
+    -moz-box-shadow: 10px 6px 5px -2px rgba(10, 10, 10, 0.72);
+  }
+  .contarjeta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .adoptar__imagen {
+    border-radius: 100px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .adoptar__imagen:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+    transition: 1s;
+  }
+  .adoptar__nombre {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .adoptar__boton {
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .adoptar__boton:hover {
+    transform: scale(1.2);
   }
 }
 
