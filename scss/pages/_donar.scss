@@ -1,0 +1,27 @@
+.imgdon {
+    border-radius: 20px;
+    width: 300px;
+}
+
+.txtdon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titdon {
+    text-align: center;
+}
+
+@media(min-width:1200px) {
+
+    .contdon {
+        align-content: center;
+        justify-content: center;
+    }
+
+    .imgdon {
+        width: 700px;
+        border-radius: 100px;
+    }
+
+}

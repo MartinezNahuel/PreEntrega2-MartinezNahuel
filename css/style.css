@@ -190,7 +190,8 @@ h2 .logo {
 }
 
 .contarj {
-  background: repeating-linear-gradient(80deg, #2667FF, #abc4ff);
+  background: rgb(36, 34, 31);
+  background: linear-gradient(41deg, rgba(36, 34, 31, 0.7147058653) 4%, rgba(38, 103, 255, 0.6922969017) 51%, rgba(36, 34, 31, 0.7203081062) 94%);
   padding: 10px;
   border: solid black;
   margin: 10px;
