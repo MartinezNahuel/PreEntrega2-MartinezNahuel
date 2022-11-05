@@ -1,10 +1,8 @@
 .footer {
     background-color: $color-principal;
-    display: flex;
-    justify-content: center;
     height: 50px;
-    align-items: center;
     margin-top: 10px;
+    @include flexcenter;
 }
 
 .imgf {
