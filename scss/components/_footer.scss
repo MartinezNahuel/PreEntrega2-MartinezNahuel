@@ -2,7 +2,7 @@
     background-color: $color-principal;
     height: 50px;
     margin-top: 10px;
-    @include flexcenter;
+    @include flex (row,center,center);
 }
 
 .imgf {

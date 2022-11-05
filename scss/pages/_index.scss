@@ -9,9 +9,13 @@
 
 
 .contimg {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+    @include flex (row, center, center);
+
+
+}
+
+.index_img {
+    max-width: 300px;
 }
 
 .texto_portada {
@@ -27,5 +31,15 @@
         font-size: 1.5rem;
         font-weight: normal;
         color: $color-letra;
+    }
+
+    .index_img {
+        max-width: 100vh;
+    }
+
+    .index_img:hover {
+        transform: scale(1.2);
+        transition: 1s;
+        border-radius: 200px;
     }
 }
