@@ -6,10 +6,11 @@
 }
 
 .contarj {
-    background: rgb(36,34,31);
-    background: linear-gradient(41deg, rgba(36,34,31,0.7147058652562588) 4%, rgba(38,103,255,0.6922969016708246) 51%, rgba(36,34,31,0.7203081061526173) 94%);
+    background: rgb(36, 34, 31);
+    background: rgb(246, 241, 234);
+    background: linear-gradient(41deg, rgba(246, 241, 234, 1) 4%, rgba(38, 103, 255, 0.6922969016708246) 51%, rgba(246, 241, 234, 0.7203081061526173) 94%);
     padding: 10px;
-    border: solid black;
+
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -28,10 +29,10 @@
     .contarj {
         background-color: #abc4ff;
         color: $color-letra;
-        border: solid;
-        box-shadow: 10px 6px 5px -2px rgba(10,10,10,0.72);
--webkit-box-shadow: 10px 6px 5px -2px rgba(10,10,10,0.72);
--moz-box-shadow: 10px 6px 5px -2px rgba(10,10,10,0.72);
+
+        box-shadow: 10px 6px 5px -2px rgba(10, 10, 10, 0.72);
+        -webkit-box-shadow: 10px 6px 5px -2px rgba(10, 10, 10, 0.72);
+        -moz-box-shadow: 10px 6px 5px -2px rgba(10, 10, 10, 0.72);
     }
 
     .contarjeta {
@@ -71,4 +72,4 @@
     .adoptar__boton:hover {
         transform: scale(1.2);
     }
-    }
+}

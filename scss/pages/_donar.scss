@@ -1,15 +1,17 @@
 .imgdon {
     border-radius: 20px;
-    width: 300px;
+    max-width: 100%;
 }
 
 .txtdon {
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: "lora";
 }
 
 .titdon {
     text-align: center;
+    font-family: "lora";
 }
 
 @media(min-width:1200px) {
@@ -20,7 +22,7 @@
     }
 
     .imgdon {
-        width: 700px;
+        max-width: 100%;
         border-radius: 100px;
     }
 
