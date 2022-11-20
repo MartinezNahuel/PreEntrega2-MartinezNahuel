@@ -3,17 +3,19 @@
     height: 50px;
     margin-top: 10px;
     @include flex (row,center,center);
+
+    &__etiqueta {
+        font-size: 0.8rem;
+        padding: 6px;
+        color: $color-secundario;
+    }
 }
 
 .imgf {
     width: 20px;
 }
 
-.footer__etiqueta {
-    font-size: 0.8rem;
-    padding: 6px;
-    color: $color-secundario;
-}
+
 
 /* -----VISUALIZACION FOOTER 1200PX----- */
 
@@ -21,19 +23,21 @@
     .footer {
         justify-content: space-around;
         height: 40px;
+        &__etiqueta {
+            font-size: 1rem;
+            font-weight: normal;
+            color: #0a043b;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
     }
 
     .imgf {
         width: 30px;
     }
 
-    .footer__etiqueta {
-        font-size: 1rem;
-        font-weight: normal;
-        color: #0a043b;
-    }
 
-    .footer__etiqueta :hover {
-        transform: scale(1.2);
-    }
+
+
 }

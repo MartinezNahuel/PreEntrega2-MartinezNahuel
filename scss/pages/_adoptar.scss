@@ -45,12 +45,11 @@
         width: 300px;
         margin: 0 auto;
         display: block;
+        &:hover {
+            transform: scale(1.1);
+            border-radius: 30px;
+            transition: 1s;
     }
-
-    .adoptar__imagen:hover {
-        transform: scale(1.1);
-        border-radius: 30px;
-        transition: 1s;
     }
 
     .adoptar__nombre {
@@ -58,18 +57,16 @@
         font-weight: bold;
         font-size: 1.2rem;
         margin-bottom: 20px;
-    }
-
-    .adoptar__boton {
-        color: black;
-        font-weight: bold;
-        width: 100px;
-        display: block;
-        margin: 0 auto;
-        border-radius: 10px;
-    }
-
-    .adoptar__boton:hover {
-        transform: scale(1.2);
+        &__boton {
+            color: black;
+            font-weight: bold;
+            width: 100px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
     }
 }

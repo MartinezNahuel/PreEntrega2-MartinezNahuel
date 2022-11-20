@@ -36,7 +36,6 @@ h2 .logo {
   color: black;
   font-family: "lora";
 }
-
 .nav-link:hover {
   color: rgba(0, 0, 0, 0.307);
 }
@@ -45,7 +44,6 @@ h2 .logo {
   color: #2667FF;
   font-family: "lora";
 }
-
 .link:hover {
   color: #3B28CC;
 }
@@ -68,15 +66,14 @@ h2 .logo {
   justify-content: center;
   align-items: center;
 }
-
-.imgf {
-  width: 20px;
-}
-
 .footer__etiqueta {
   font-size: 0.8rem;
   padding: 6px;
   color: #3B28CC;
+}
+
+.imgf {
+  width: 20px;
 }
 
 /* -----VISUALIZACION FOOTER 1200PX----- */
@@ -85,16 +82,16 @@ h2 .logo {
     justify-content: space-around;
     height: 40px;
   }
-  .imgf {
-    width: 30px;
-  }
   .footer__etiqueta {
     font-size: 1rem;
     font-weight: normal;
     color: #0a043b;
   }
-  .footer__etiqueta :hover {
+  .footer__etiqueta:hover {
     transform: scale(1.2);
+  }
+  .imgf {
+    width: 30px;
   }
 }
 .adoptar__boton {
@@ -105,9 +102,9 @@ h2 .logo {
   margin: 0 auto;
   border-radius: 10px;
 }
-
 .adoptar__boton:hover {
   transform: scale(1.2);
+  transition: 1s;
 }
 
 .titulo {
@@ -248,7 +245,7 @@ h2 .logo {
     font-size: 1.2rem;
     margin-bottom: 20px;
   }
-  .adoptar__boton {
+  .adoptar__nombre__boton {
     color: black;
     font-weight: bold;
     width: 100px;
@@ -256,7 +253,7 @@ h2 .logo {
     margin: 0 auto;
     border-radius: 10px;
   }
-  .adoptar__boton:hover {
+  .adoptar__nombre__boton:hover {
     transform: scale(1.2);
   }
 }

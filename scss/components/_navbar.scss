@@ -16,19 +16,19 @@ h2 .logo {
 .nav-link {
     color: black;
     font-family: "lora";
+    &:hover {
+        color: rgba(0, 0, 0, 0.307);
+    }
 }
 
-.nav-link:hover {
-    color: rgba(0, 0, 0, 0.307);
-}
+
 
 .link {
     color: #2667FF;
     font-family: "lora";
+    &:hover {
+        color: #3B28CC;
 }
-
-.link:hover {
-    color: #3B28CC;
 }
 
 /* ----visualizacion 1200px navbar---- */
