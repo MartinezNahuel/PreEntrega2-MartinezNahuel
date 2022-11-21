@@ -22,24 +22,24 @@
     color: $color-letra;
     text-align: center;
     font-family: "lora";
+    font-size: 1.3rem;
 }
 
 
 /* titulo para resolucion 1200 */
 @media (min-width:1200px) {
     .titulo {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: normal;
         color: $color-letra;
     }
 
     .index_img {
         max-width: 100vh;
-    }
-
-    .index_img:hover {
-        transform: scale(1.1);
-        transition: 1.4s;
-        border-radius: 300px;
+        &:hover {
+            transform: scale(1.1);
+            transition: 1.4s;
+            border-radius: 300px;
+        }
     }
 }
